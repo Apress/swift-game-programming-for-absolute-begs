@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5721931B10A237000B4E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5721921B10A237000B4E6F /* Images.xcassets */; };
+		FFDC3A181AC49DBE00248624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A171AC49DBE00248624 /* AppDelegate.swift */; };
+		FFDC3A1C1AC49DBE00248624 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A1B1AC49DBE00248624 /* GameScene.swift */; };
+		FFDC3A1E1AC49DBE00248624 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A1D1AC49DBE00248624 /* GameViewController.swift */; };
+		FFDC3A211AC49DBE00248624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDC3A1F1AC49DBE00248624 /* Main.storyboard */; };
+		FFDC3A3C1AC49E3300248624 /* GameObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A3B1AC49E3300248624 /* GameObjectNode.swift */; };
+		FFDC3A3E1AC49E4700248624 /* InputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A3D1AC49E4700248624 /* InputHelper.swift */; };
+		FFDC3A401AC49E5900248624 /* GameWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A3F1AC49E5900248624 /* GameWorld.swift */; };
+		FFDC3A421AC49E6E00248624 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A411AC49E6E00248624 /* Treasure.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5721921B10A237000B4E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Assets/Tut's Tomb/Images.xcassets"; sourceTree = "<group>"; };
+		FFDC3A121AC49DBE00248624 /* TutsTomb3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutsTomb3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDC3A161AC49DBE00248624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDC3A171AC49DBE00248624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDC3A1B1AC49DBE00248624 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFDC3A1D1AC49DBE00248624 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFDC3A201AC49DBE00248624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDC3A3B1AC49E3300248624 /* GameObjectNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectNode.swift; sourceTree = "<group>"; };
+		FFDC3A3D1AC49E4700248624 /* InputHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputHelper.swift; sourceTree = "<group>"; };
+		FFDC3A3F1AC49E5900248624 /* GameWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWorld.swift; sourceTree = "<group>"; };
+		FFDC3A411AC49E6E00248624 /* Treasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDC3A0F1AC49DBD00248624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDC3A091AC49DBD00248624 = {
+			isa = PBXGroup;
+			children = (
+				FF5721921B10A237000B4E6F /* Images.xcassets */,
+				FFDC3A151AC49DBE00248624 /* Supporting Files */,
+				FFDC3A141AC49DBE00248624 /* TutsTomb3 */,
+				FFDC3A131AC49DBE00248624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDC3A131AC49DBE00248624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3A121AC49DBE00248624 /* TutsTomb3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDC3A141AC49DBE00248624 /* TutsTomb3 */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3A171AC49DBE00248624 /* AppDelegate.swift */,
+				FFDC3A1B1AC49DBE00248624 /* GameScene.swift */,
+				FFDC3A1D1AC49DBE00248624 /* GameViewController.swift */,
+				FFDC3A1F1AC49DBE00248624 /* Main.storyboard */,
+				FFDC3A3B1AC49E3300248624 /* GameObjectNode.swift */,
+				FFDC3A3D1AC49E4700248624 /* InputHelper.swift */,
+				FFDC3A3F1AC49E5900248624 /* GameWorld.swift */,
+				FFDC3A411AC49E6E00248624 /* Treasure.swift */,
+			);
+			path = TutsTomb3;
+			sourceTree = "<group>";
+		};
+		FFDC3A151AC49DBE00248624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC3A161AC49DBE00248624 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = TutsTomb3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDC3A111AC49DBD00248624 /* TutsTomb3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDC3A351AC49DBE00248624 /* Build configuration list for PBXNativeTarget "TutsTomb3" */;
+			buildPhases = (
+				FFDC3A0E1AC49DBD00248624 /* Sources */,
+				FFDC3A0F1AC49DBD00248624 /* Frameworks */,
+				FFDC3A101AC49DBD00248624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutsTomb3;
+			productName = TutsTomb3;
+			productReference = FFDC3A121AC49DBE00248624 /* TutsTomb3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDC3A0A1AC49DBD00248624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjan Egges";
+				TargetAttributes = {
+					FFDC3A111AC49DBD00248624 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FFDC3A0D1AC49DBD00248624 /* Build configuration list for PBXProject "TutsTomb3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDC3A091AC49DBD00248624;
+			productRefGroup = FFDC3A131AC49DBE00248624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDC3A111AC49DBD00248624 /* TutsTomb3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDC3A101AC49DBD00248624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDC3A211AC49DBE00248624 /* Main.storyboard in Resources */,
+				FF5721931B10A237000B4E6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDC3A0E1AC49DBD00248624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDC3A1C1AC49DBE00248624 /* GameScene.swift in Sources */,
+				FFDC3A1E1AC49DBE00248624 /* GameViewController.swift in Sources */,
+				FFDC3A3C1AC49E3300248624 /* GameObjectNode.swift in Sources */,
+				FFDC3A181AC49DBE00248624 /* AppDelegate.swift in Sources */,
+				FFDC3A401AC49E5900248624 /* GameWorld.swift in Sources */,
+				FFDC3A3E1AC49E4700248624 /* InputHelper.swift in Sources */,
+				FFDC3A421AC49E6E00248624 /* Treasure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDC3A1F1AC49DBE00248624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDC3A201AC49DBE00248624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDC3A331AC49DBE00248624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDC3A341AC49DBE00248624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDC3A361AC49DBE00248624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutsTomb3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDC3A371AC49DBE00248624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutsTomb3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDC3A0D1AC49DBD00248624 /* Build configuration list for PBXProject "TutsTomb3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDC3A331AC49DBE00248624 /* Debug */,
+				FFDC3A341AC49DBE00248624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDC3A351AC49DBE00248624 /* Build configuration list for PBXNativeTarget "TutsTomb3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDC3A361AC49DBE00248624 /* Debug */,
+				FFDC3A371AC49DBE00248624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDC3A0A1AC49DBD00248624 /* Project object */;
+}

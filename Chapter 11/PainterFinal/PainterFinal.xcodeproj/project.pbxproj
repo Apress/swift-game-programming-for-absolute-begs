@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF57219D1B10A330000B4E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5721991B10A330000B4E6F /* Images.xcassets */; };
+		FF57219E1B10A330000B4E6F /* snd_collect_points.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF57219A1B10A330000B4E6F /* snd_collect_points.mp3 */; };
+		FF57219F1B10A330000B4E6F /* snd_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF57219B1B10A330000B4E6F /* snd_music.mp3 */; };
+		FF5721A01B10A330000B4E6F /* snd_shoot_paint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF57219C1B10A330000B4E6F /* snd_shoot_paint.mp3 */; };
+		FFD108C81A9BB5D8006C7CB0 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD108C71A9BB5D8006C7CB0 /* Sound.swift */; };
+		FFE2F6EB1A9BADB50035886E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F6EA1A9BADB50035886E /* AppDelegate.swift */; };
+		FFE2F6EF1A9BADB50035886E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F6EE1A9BADB50035886E /* GameScene.swift */; };
+		FFE2F6F11A9BADB50035886E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F6F01A9BADB50035886E /* GameViewController.swift */; };
+		FFE2F6F41A9BADB50035886E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE2F6F21A9BADB50035886E /* Main.storyboard */; };
+		FFE2F70F1A9BAE070035886E /* GameWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F70E1A9BAE070035886E /* GameWorld.swift */; };
+		FFE2F7111A9BAE1A0035886E /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F7101A9BAE1A0035886E /* Ball.swift */; };
+		FFE2F7131A9BAE2A0035886E /* Cannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F7121A9BAE2A0035886E /* Cannon.swift */; };
+		FFE2F7151A9BAE390035886E /* PaintCan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F7141A9BAE390035886E /* PaintCan.swift */; };
+		FFE2F7171A9BAE4A0035886E /* ThreeColorGameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F7161A9BAE4A0035886E /* ThreeColorGameObject.swift */; };
+		FFE2F7191A9BAF8C0035886E /* InputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2F7181A9BAF8C0035886E /* InputHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5721991B10A330000B4E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Assets/Painter/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		FF57219A1B10A330000B4E6F /* snd_collect_points.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_collect_points.mp3; path = ../../Assets/Painter/snd_collect_points.mp3; sourceTree = "<group>"; };
+		FF57219B1B10A330000B4E6F /* snd_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_music.mp3; path = ../../Assets/Painter/snd_music.mp3; sourceTree = "<group>"; };
+		FF57219C1B10A330000B4E6F /* snd_shoot_paint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_shoot_paint.mp3; path = ../../Assets/Painter/snd_shoot_paint.mp3; sourceTree = "<group>"; };
+		FFD108C71A9BB5D8006C7CB0 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = ../Sound.swift; sourceTree = "<group>"; };
+		FFE2F6E51A9BADB50035886E /* Painter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE2F6E91A9BADB50035886E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE2F6EA1A9BADB50035886E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE2F6EE1A9BADB50035886E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFE2F6F01A9BADB50035886E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFE2F6F31A9BADB50035886E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE2F70E1A9BAE070035886E /* GameWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWorld.swift; sourceTree = "<group>"; };
+		FFE2F7101A9BAE1A0035886E /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		FFE2F7121A9BAE2A0035886E /* Cannon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cannon.swift; sourceTree = "<group>"; };
+		FFE2F7141A9BAE390035886E /* PaintCan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCan.swift; sourceTree = "<group>"; };
+		FFE2F7161A9BAE4A0035886E /* ThreeColorGameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeColorGameObject.swift; sourceTree = "<group>"; };
+		FFE2F7181A9BAF8C0035886E /* InputHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE2F6E21A9BADB50035886E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5721981B10A323000B4E6F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF5721991B10A330000B4E6F /* Images.xcassets */,
+				FF57219A1B10A330000B4E6F /* snd_collect_points.mp3 */,
+				FF57219B1B10A330000B4E6F /* snd_music.mp3 */,
+				FF57219C1B10A330000B4E6F /* snd_shoot_paint.mp3 */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		FFE2F6DC1A9BADB50035886E = {
+			isa = PBXGroup;
+			children = (
+				FF5721981B10A323000B4E6F /* Assets */,
+				FFE2F6E71A9BADB50035886E /* Source */,
+				FFE2F6E81A9BADB50035886E /* Supporting Files */,
+				FFE2F6E61A9BADB50035886E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE2F6E61A9BADB50035886E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2F6E51A9BADB50035886E /* Painter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE2F6E71A9BADB50035886E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FFD108C71A9BB5D8006C7CB0 /* Sound.swift */,
+				FFE2F6EA1A9BADB50035886E /* AppDelegate.swift */,
+				FFE2F6EE1A9BADB50035886E /* GameScene.swift */,
+				FFE2F6F01A9BADB50035886E /* GameViewController.swift */,
+				FFE2F6F21A9BADB50035886E /* Main.storyboard */,
+				FFE2F70E1A9BAE070035886E /* GameWorld.swift */,
+				FFE2F7101A9BAE1A0035886E /* Ball.swift */,
+				FFE2F7121A9BAE2A0035886E /* Cannon.swift */,
+				FFE2F7141A9BAE390035886E /* PaintCan.swift */,
+				FFE2F7161A9BAE4A0035886E /* ThreeColorGameObject.swift */,
+				FFE2F7181A9BAF8C0035886E /* InputHelper.swift */,
+			);
+			name = Source;
+			path = PainterFinal;
+			sourceTree = "<group>";
+		};
+		FFE2F6E81A9BADB50035886E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE2F6E91A9BADB50035886E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = PainterFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE2F6E41A9BADB50035886E /* Painter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE2F7081A9BADB50035886E /* Build configuration list for PBXNativeTarget "Painter" */;
+			buildPhases = (
+				FFE2F6E11A9BADB50035886E /* Sources */,
+				FFE2F6E21A9BADB50035886E /* Frameworks */,
+				FFE2F6E31A9BADB50035886E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Painter;
+			productName = PainterFinal;
+			productReference = FFE2F6E51A9BADB50035886E /* Painter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE2F6DD1A9BADB50035886E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjan Egges";
+				TargetAttributes = {
+					FFE2F6E41A9BADB50035886E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = FFE2F6E01A9BADB50035886E /* Build configuration list for PBXProject "PainterFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE2F6DC1A9BADB50035886E;
+			productRefGroup = FFE2F6E61A9BADB50035886E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE2F6E41A9BADB50035886E /* Painter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE2F6E31A9BADB50035886E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57219F1B10A330000B4E6F /* snd_music.mp3 in Resources */,
+				FF57219E1B10A330000B4E6F /* snd_collect_points.mp3 in Resources */,
+				FFE2F6F41A9BADB50035886E /* Main.storyboard in Resources */,
+				FF5721A01B10A330000B4E6F /* snd_shoot_paint.mp3 in Resources */,
+				FF57219D1B10A330000B4E6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE2F6E11A9BADB50035886E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2F70F1A9BAE070035886E /* GameWorld.swift in Sources */,
+				FFE2F6EF1A9BADB50035886E /* GameScene.swift in Sources */,
+				FFE2F7111A9BAE1A0035886E /* Ball.swift in Sources */,
+				FFE2F6F11A9BADB50035886E /* GameViewController.swift in Sources */,
+				FFE2F7131A9BAE2A0035886E /* Cannon.swift in Sources */,
+				FFD108C81A9BB5D8006C7CB0 /* Sound.swift in Sources */,
+				FFE2F7171A9BAE4A0035886E /* ThreeColorGameObject.swift in Sources */,
+				FFE2F6EB1A9BADB50035886E /* AppDelegate.swift in Sources */,
+				FFE2F7191A9BAF8C0035886E /* InputHelper.swift in Sources */,
+				FFE2F7151A9BAE390035886E /* PaintCan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFE2F6F21A9BADB50035886E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE2F6F31A9BADB50035886E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE2F7061A9BADB50035886E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE2F7071A9BADB50035886E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE2F7091A9BADB50035886E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PainterFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE2F70A1A9BADB50035886E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PainterFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE2F6E01A9BADB50035886E /* Build configuration list for PBXProject "PainterFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2F7061A9BADB50035886E /* Debug */,
+				FFE2F7071A9BADB50035886E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE2F7081A9BADB50035886E /* Build configuration list for PBXNativeTarget "Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE2F7091A9BADB50035886E /* Debug */,
+				FFE2F70A1A9BADB50035886E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE2F6DD1A9BADB50035886E /* Project object */;
+}

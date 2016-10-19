@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFAB462A1A59A7DB003AD382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB46291A59A7DB003AD382 /* AppDelegate.swift */; };
+		FFAB462E1A59A7DB003AD382 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB462D1A59A7DB003AD382 /* GameScene.swift */; };
+		FFAB46301A59A7DB003AD382 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB462F1A59A7DB003AD382 /* GameViewController.swift */; };
+		FFAB46331A59A7DB003AD382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAB46311A59A7DB003AD382 /* Main.storyboard */; };
+		FFAB46351A59A7DB003AD382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAB46341A59A7DB003AD382 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFAB46241A59A7DB003AD382 /* Painter3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painter3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAB46281A59A7DB003AD382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAB46291A59A7DB003AD382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFAB462D1A59A7DB003AD382 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFAB462F1A59A7DB003AD382 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFAB46321A59A7DB003AD382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFAB46341A59A7DB003AD382 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFAB46211A59A7DB003AD382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFAB461B1A59A7DB003AD382 = {
+			isa = PBXGroup;
+			children = (
+				FFAB46261A59A7DB003AD382 /* Painter3 */,
+				FFAB46251A59A7DB003AD382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFAB46251A59A7DB003AD382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB46241A59A7DB003AD382 /* Painter3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFAB46261A59A7DB003AD382 /* Painter3 */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB46291A59A7DB003AD382 /* AppDelegate.swift */,
+				FFAB462D1A59A7DB003AD382 /* GameScene.swift */,
+				FFAB462F1A59A7DB003AD382 /* GameViewController.swift */,
+				FFAB46311A59A7DB003AD382 /* Main.storyboard */,
+				FFAB46341A59A7DB003AD382 /* Images.xcassets */,
+				FFAB46271A59A7DB003AD382 /* Supporting Files */,
+			);
+			path = Painter3;
+			sourceTree = "<group>";
+		};
+		FFAB46271A59A7DB003AD382 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFAB46281A59A7DB003AD382 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFAB46231A59A7DB003AD382 /* Painter3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAB46471A59A7DB003AD382 /* Build configuration list for PBXNativeTarget "Painter3" */;
+			buildPhases = (
+				FFAB46201A59A7DB003AD382 /* Sources */,
+				FFAB46211A59A7DB003AD382 /* Frameworks */,
+				FFAB46221A59A7DB003AD382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Painter3;
+			productName = Painter3;
+			productReference = FFAB46241A59A7DB003AD382 /* Painter3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFAB461C1A59A7DB003AD382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjan Egges";
+				TargetAttributes = {
+					FFAB46231A59A7DB003AD382 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FFAB461F1A59A7DB003AD382 /* Build configuration list for PBXProject "Painter3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFAB461B1A59A7DB003AD382;
+			productRefGroup = FFAB46251A59A7DB003AD382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFAB46231A59A7DB003AD382 /* Painter3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFAB46221A59A7DB003AD382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAB46351A59A7DB003AD382 /* Images.xcassets in Resources */,
+				FFAB46331A59A7DB003AD382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFAB46201A59A7DB003AD382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAB462E1A59A7DB003AD382 /* GameScene.swift in Sources */,
+				FFAB46301A59A7DB003AD382 /* GameViewController.swift in Sources */,
+				FFAB462A1A59A7DB003AD382 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFAB46311A59A7DB003AD382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFAB46321A59A7DB003AD382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFAB46451A59A7DB003AD382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFAB46461A59A7DB003AD382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFAB46481A59A7DB003AD382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Painter3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFAB46491A59A7DB003AD382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Painter3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFAB461F1A59A7DB003AD382 /* Build configuration list for PBXProject "Painter3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAB46451A59A7DB003AD382 /* Debug */,
+				FFAB46461A59A7DB003AD382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAB46471A59A7DB003AD382 /* Build configuration list for PBXNativeTarget "Painter3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAB46481A59A7DB003AD382 /* Debug */,
+				FFAB46491A59A7DB003AD382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFAB461C1A59A7DB003AD382 /* Project object */;
+}

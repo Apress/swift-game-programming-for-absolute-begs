@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF57218B1B10A18B000B4E6F /* CheapPotatoes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF5721861B10A18B000B4E6F /* CheapPotatoes.ttf */; };
+		FF57218C1B10A18B000B4E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5721871B10A18B000B4E6F /* Images.xcassets */; };
+		FF57218D1B10A18B000B4E6F /* snd_gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF5721881B10A18B000B4E6F /* snd_gameover.mp3 */; };
+		FF57218E1B10A18B000B4E6F /* snd_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF5721891B10A18B000B4E6F /* snd_music.mp3 */; };
+		FF57218F1B10A18B000B4E6F /* snd_treasure_collected.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF57218A1B10A18B000B4E6F /* snd_treasure_collected.mp3 */; };
+		FFC426811ACDB9A3004A66BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426801ACDB9A3004A66BC /* AppDelegate.swift */; };
+		FFC426851ACDB9A3004A66BC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426841ACDB9A3004A66BC /* GameScene.swift */; };
+		FFC426871ACDB9A3004A66BC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426861ACDB9A3004A66BC /* GameViewController.swift */; };
+		FFC4268A1ACDB9A3004A66BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC426881ACDB9A3004A66BC /* Main.storyboard */; };
+		FFC426A51ACDBB94004A66BC /* GameObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426A41ACDBB94004A66BC /* GameObjectNode.swift */; };
+		FFC426A71ACDBBA5004A66BC /* InputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426A61ACDBBA5004A66BC /* InputHelper.swift */; };
+		FFC426A91ACDBBB5004A66BC /* GameWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426A81ACDBBB5004A66BC /* GameWorld.swift */; };
+		FFC426AB1ACDBBC6004A66BC /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426AA1ACDBBC6004A66BC /* Sound.swift */; };
+		FFC426AD1ACDBBD6004A66BC /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426AC1ACDBBD6004A66BC /* Treasure.swift */; };
+		FFC426AF1ACDBBE5004A66BC /* Glitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426AE1ACDBBE5004A66BC /* Glitter.swift */; };
+		FFC426B11ACDBBF7004A66BC /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426B01ACDBBF7004A66BC /* Score.swift */; };
+		FFC426B31ACDBC0F004A66BC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC426B21ACDBC0F004A66BC /* Button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5721861B10A18B000B4E6F /* CheapPotatoes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CheapPotatoes.ttf; path = "../../Assets/Tut's Tomb/CheapPotatoes.ttf"; sourceTree = "<group>"; };
+		FF5721871B10A18B000B4E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Assets/Tut's Tomb/Images.xcassets"; sourceTree = "<group>"; };
+		FF5721881B10A18B000B4E6F /* snd_gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_gameover.mp3; path = "../../Assets/Tut's Tomb/snd_gameover.mp3"; sourceTree = "<group>"; };
+		FF5721891B10A18B000B4E6F /* snd_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_music.mp3; path = "../../Assets/Tut's Tomb/snd_music.mp3"; sourceTree = "<group>"; };
+		FF57218A1B10A18B000B4E6F /* snd_treasure_collected.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snd_treasure_collected.mp3; path = "../../Assets/Tut's Tomb/snd_treasure_collected.mp3"; sourceTree = "<group>"; };
+		FFC4267B1ACDB9A3004A66BC /* Tut's Tomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tut's Tomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC4267F1ACDB9A3004A66BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC426801ACDB9A3004A66BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC426841ACDB9A3004A66BC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFC426861ACDB9A3004A66BC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFC426891ACDB9A3004A66BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC426A41ACDBB94004A66BC /* GameObjectNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObjectNode.swift; sourceTree = "<group>"; };
+		FFC426A61ACDBBA5004A66BC /* InputHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputHelper.swift; sourceTree = "<group>"; };
+		FFC426A81ACDBBB5004A66BC /* GameWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWorld.swift; sourceTree = "<group>"; };
+		FFC426AA1ACDBBC6004A66BC /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		FFC426AC1ACDBBD6004A66BC /* Treasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		FFC426AE1ACDBBE5004A66BC /* Glitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glitter.swift; sourceTree = "<group>"; };
+		FFC426B01ACDBBF7004A66BC /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		FFC426B21ACDBC0F004A66BC /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC426781ACDB9A3004A66BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5721851B10A17F000B4E6F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF5721861B10A18B000B4E6F /* CheapPotatoes.ttf */,
+				FF5721871B10A18B000B4E6F /* Images.xcassets */,
+				FF5721881B10A18B000B4E6F /* snd_gameover.mp3 */,
+				FF5721891B10A18B000B4E6F /* snd_music.mp3 */,
+				FF57218A1B10A18B000B4E6F /* snd_treasure_collected.mp3 */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		FFC426721ACDB9A3004A66BC = {
+			isa = PBXGroup;
+			children = (
+				FF5721851B10A17F000B4E6F /* Assets */,
+				FFC4267D1ACDB9A3004A66BC /* Source */,
+				FFC4267E1ACDB9A3004A66BC /* Supporting Files */,
+				FFC4267C1ACDB9A3004A66BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC4267C1ACDB9A3004A66BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC4267B1ACDB9A3004A66BC /* Tut's Tomb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC4267D1ACDB9A3004A66BC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FFC426801ACDB9A3004A66BC /* AppDelegate.swift */,
+				FFC426841ACDB9A3004A66BC /* GameScene.swift */,
+				FFC426861ACDB9A3004A66BC /* GameViewController.swift */,
+				FFC426881ACDB9A3004A66BC /* Main.storyboard */,
+				FFC426A41ACDBB94004A66BC /* GameObjectNode.swift */,
+				FFC426A61ACDBBA5004A66BC /* InputHelper.swift */,
+				FFC426A81ACDBBB5004A66BC /* GameWorld.swift */,
+				FFC426AA1ACDBBC6004A66BC /* Sound.swift */,
+				FFC426AC1ACDBBD6004A66BC /* Treasure.swift */,
+				FFC426AE1ACDBBE5004A66BC /* Glitter.swift */,
+				FFC426B01ACDBBF7004A66BC /* Score.swift */,
+				FFC426B21ACDBC0F004A66BC /* Button.swift */,
+			);
+			name = Source;
+			path = TutsTombFinal;
+			sourceTree = "<group>";
+		};
+		FFC4267E1ACDB9A3004A66BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC4267F1ACDB9A3004A66BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = TutsTombFinal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC4267A1ACDB9A3004A66BC /* Tut's Tomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC4269E1ACDB9A3004A66BC /* Build configuration list for PBXNativeTarget "Tut's Tomb" */;
+			buildPhases = (
+				FFC426771ACDB9A3004A66BC /* Sources */,
+				FFC426781ACDB9A3004A66BC /* Frameworks */,
+				FFC426791ACDB9A3004A66BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tut's Tomb";
+			productName = TutsTombFinal;
+			productReference = FFC4267B1ACDB9A3004A66BC /* Tut's Tomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC426731ACDB9A3004A66BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjan Egges";
+				TargetAttributes = {
+					FFC4267A1ACDB9A3004A66BC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FFC426761ACDB9A3004A66BC /* Build configuration list for PBXProject "TutsTombFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC426721ACDB9A3004A66BC;
+			productRefGroup = FFC4267C1ACDB9A3004A66BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC4267A1ACDB9A3004A66BC /* Tut's Tomb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC426791ACDB9A3004A66BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57218D1B10A18B000B4E6F /* snd_gameover.mp3 in Resources */,
+				FF57218C1B10A18B000B4E6F /* Images.xcassets in Resources */,
+				FF57218E1B10A18B000B4E6F /* snd_music.mp3 in Resources */,
+				FF57218F1B10A18B000B4E6F /* snd_treasure_collected.mp3 in Resources */,
+				FFC4268A1ACDB9A3004A66BC /* Main.storyboard in Resources */,
+				FF57218B1B10A18B000B4E6F /* CheapPotatoes.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC426771ACDB9A3004A66BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC426AB1ACDBBC6004A66BC /* Sound.swift in Sources */,
+				FFC426851ACDB9A3004A66BC /* GameScene.swift in Sources */,
+				FFC426871ACDB9A3004A66BC /* GameViewController.swift in Sources */,
+				FFC426A51ACDBB94004A66BC /* GameObjectNode.swift in Sources */,
+				FFC426B11ACDBBF7004A66BC /* Score.swift in Sources */,
+				FFC426AD1ACDBBD6004A66BC /* Treasure.swift in Sources */,
+				FFC426811ACDB9A3004A66BC /* AppDelegate.swift in Sources */,
+				FFC426A91ACDBBB5004A66BC /* GameWorld.swift in Sources */,
+				FFC426A71ACDBBA5004A66BC /* InputHelper.swift in Sources */,
+				FFC426AF1ACDBBE5004A66BC /* Glitter.swift in Sources */,
+				FFC426B31ACDBC0F004A66BC /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFC426881ACDB9A3004A66BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC426891ACDB9A3004A66BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC4269C1ACDB9A3004A66BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC4269D1ACDB9A3004A66BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC4269F1ACDB9A3004A66BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutsTombFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC426A01ACDB9A3004A66BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TutsTombFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC426761ACDB9A3004A66BC /* Build configuration list for PBXProject "TutsTombFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC4269C1ACDB9A3004A66BC /* Debug */,
+				FFC4269D1ACDB9A3004A66BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC4269E1ACDB9A3004A66BC /* Build configuration list for PBXNativeTarget "Tut's Tomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC4269F1ACDB9A3004A66BC /* Debug */,
+				FFC426A01ACDB9A3004A66BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC426731ACDB9A3004A66BC /* Project object */;
+}

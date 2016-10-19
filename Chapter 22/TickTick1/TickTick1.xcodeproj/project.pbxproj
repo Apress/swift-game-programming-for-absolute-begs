@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5720C71B109BCE000B4E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5720C61B109BCE000B4E6F /* Images.xcassets */; };
+		FF5720C91B109BD4000B4E6F /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF5720C81B109BD4000B4E6F /* defaults.plist */; };
+		FF5720FB1B109D53000B4E6F /* levels.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF5720FA1B109D53000B4E6F /* levels.txt */; };
+		FFDCA71B1B01252E00E9C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA71A1B01252E00E9C47E /* AppDelegate.swift */; };
+		FFDCA71F1B01252E00E9C47E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA71E1B01252E00E9C47E /* GameScene.swift */; };
+		FFDCA7211B01252E00E9C47E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7201B01252E00E9C47E /* GameViewController.swift */; };
+		FFDCA7241B01252E00E9C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDCA7221B01252E00E9C47E /* Main.storyboard */; };
+		FFDCA74C1B01259500E9C47E /* SKNode_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7411B01259500E9C47E /* SKNode_Extension.swift */; };
+		FFDCA74D1B01259500E9C47E /* SKSpriteNode_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7421B01259500E9C47E /* SKSpriteNode_Extension.swift */; };
+		FFDCA74E1B01259500E9C47E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7431B01259500E9C47E /* Button.swift */; };
+		FFDCA74F1B01259500E9C47E /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7441B01259500E9C47E /* Math.swift */; };
+		FFDCA7501B01259500E9C47E /* GameStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7451B01259500E9C47E /* GameStateManager.swift */; };
+		FFDCA7511B01259500E9C47E /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7461B01259500E9C47E /* Sound.swift */; };
+		FFDCA7521B01259500E9C47E /* InputHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7471B01259500E9C47E /* InputHelper.swift */; };
+		FFDCA7531B01259500E9C47E /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7481B01259500E9C47E /* FileReader.swift */; };
+		FFDCA7541B01259500E9C47E /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7491B01259500E9C47E /* DefaultsManager.swift */; };
+		FFDCA7551B01259500E9C47E /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA74A1B01259500E9C47E /* GridLayout.swift */; };
+		FFDCA7561B01259500E9C47E /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA74B1B01259500E9C47E /* GameScreen.swift */; };
+		FFDCA75A1B0125BB00E9C47E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7581B0125BB00E9C47E /* Tile.swift */; };
+		FFDCA75B1B0125BB00E9C47E /* TileField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7591B0125BB00E9C47E /* TileField.swift */; };
+		FFDCA75D1B0125C400E9C47E /* WaterDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA75C1B0125C400E9C47E /* WaterDrop.swift */; };
+		FFDCA7601B0125D600E9C47E /* LevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA75F1B0125D600E9C47E /* LevelButton.swift */; };
+		FFDCA7661B0125EA00E9C47E /* LevelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7621B0125EA00E9C47E /* LevelState.swift */; };
+		FFDCA7671B0125EA00E9C47E /* TitleMenuState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7631B0125EA00E9C47E /* TitleMenuState.swift */; };
+		FFDCA7681B0125EA00E9C47E /* HelpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7641B0125EA00E9C47E /* HelpState.swift */; };
+		FFDCA7691B0125EA00E9C47E /* LevelMenuState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDCA7651B0125EA00E9C47E /* LevelMenuState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5720C61B109BCE000B4E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Assets/Tick Tick/Images.xcassets"; sourceTree = "<group>"; };
+		FF5720C81B109BD4000B4E6F /* defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = defaults.plist; path = "../../Assets/Tick Tick/defaults.plist"; sourceTree = "<group>"; };
+		FF5720FA1B109D53000B4E6F /* levels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = levels.txt; path = "../../Assets/Tick Tick/levels.txt"; sourceTree = "<group>"; };
+		FFDCA7151B01252E00E9C47E /* Tick Tick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tick Tick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDCA7191B01252E00E9C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDCA71A1B01252E00E9C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDCA71E1B01252E00E9C47E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFDCA7201B01252E00E9C47E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFDCA7231B01252E00E9C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDCA7331B01252E00E9C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDCA7341B01252E00E9C47E /* TickTick1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTick1Tests.swift; sourceTree = "<group>"; };
+		FFDCA7411B01259500E9C47E /* SKNode_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKNode_Extension.swift; sourceTree = "<group>"; };
+		FFDCA7421B01259500E9C47E /* SKSpriteNode_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSpriteNode_Extension.swift; sourceTree = "<group>"; };
+		FFDCA7431B01259500E9C47E /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		FFDCA7441B01259500E9C47E /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		FFDCA7451B01259500E9C47E /* GameStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateManager.swift; sourceTree = "<group>"; };
+		FFDCA7461B01259500E9C47E /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		FFDCA7471B01259500E9C47E /* InputHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputHelper.swift; sourceTree = "<group>"; };
+		FFDCA7481B01259500E9C47E /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		FFDCA7491B01259500E9C47E /* DefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		FFDCA74A1B01259500E9C47E /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		FFDCA74B1B01259500E9C47E /* GameScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		FFDCA7581B0125BB00E9C47E /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		FFDCA7591B0125BB00E9C47E /* TileField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileField.swift; sourceTree = "<group>"; };
+		FFDCA75C1B0125C400E9C47E /* WaterDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterDrop.swift; sourceTree = "<group>"; };
+		FFDCA75F1B0125D600E9C47E /* LevelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelButton.swift; sourceTree = "<group>"; };
+		FFDCA7621B0125EA00E9C47E /* LevelState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelState.swift; sourceTree = "<group>"; };
+		FFDCA7631B0125EA00E9C47E /* TitleMenuState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleMenuState.swift; sourceTree = "<group>"; };
+		FFDCA7641B0125EA00E9C47E /* HelpState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpState.swift; sourceTree = "<group>"; };
+		FFDCA7651B0125EA00E9C47E /* LevelMenuState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelMenuState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDCA7121B01252E00E9C47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDCA70C1B01252E00E9C47E = {
+			isa = PBXGroup;
+			children = (
+				FFDCA76A1B0126EA00E9C47E /* Assets */,
+				FFDCA7401B01258100E9C47E /* Generic */,
+				FFDCA7171B01252E00E9C47E /* TickTick1 */,
+				FFDCA7311B01252E00E9C47E /* TickTick1Tests */,
+				FFDCA7161B01252E00E9C47E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDCA7161B01252E00E9C47E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7151B01252E00E9C47E /* Tick Tick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDCA7171B01252E00E9C47E /* TickTick1 */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7611B0125DF00E9C47E /* states */,
+				FFDCA75E1B0125CC00E9C47E /* gui */,
+				FFDCA7571B0125B000E9C47E /* gameobject */,
+				FFDCA71A1B01252E00E9C47E /* AppDelegate.swift */,
+				FFDCA71E1B01252E00E9C47E /* GameScene.swift */,
+				FFDCA7201B01252E00E9C47E /* GameViewController.swift */,
+				FFDCA7221B01252E00E9C47E /* Main.storyboard */,
+				FFDCA7181B01252E00E9C47E /* Supporting Files */,
+			);
+			path = TickTick1;
+			sourceTree = "<group>";
+		};
+		FFDCA7181B01252E00E9C47E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7191B01252E00E9C47E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFDCA7311B01252E00E9C47E /* TickTick1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7341B01252E00E9C47E /* TickTick1Tests.swift */,
+				FFDCA7321B01252E00E9C47E /* Supporting Files */,
+			);
+			path = TickTick1Tests;
+			sourceTree = "<group>";
+		};
+		FFDCA7321B01252E00E9C47E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7331B01252E00E9C47E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFDCA7401B01258100E9C47E /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7411B01259500E9C47E /* SKNode_Extension.swift */,
+				FFDCA7421B01259500E9C47E /* SKSpriteNode_Extension.swift */,
+				FFDCA7431B01259500E9C47E /* Button.swift */,
+				FFDCA7441B01259500E9C47E /* Math.swift */,
+				FFDCA7451B01259500E9C47E /* GameStateManager.swift */,
+				FFDCA7461B01259500E9C47E /* Sound.swift */,
+				FFDCA7471B01259500E9C47E /* InputHelper.swift */,
+				FFDCA7481B01259500E9C47E /* FileReader.swift */,
+				FFDCA7491B01259500E9C47E /* DefaultsManager.swift */,
+				FFDCA74A1B01259500E9C47E /* GridLayout.swift */,
+				FFDCA74B1B01259500E9C47E /* GameScreen.swift */,
+			);
+			name = Generic;
+			sourceTree = "<group>";
+		};
+		FFDCA7571B0125B000E9C47E /* gameobject */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7581B0125BB00E9C47E /* Tile.swift */,
+				FFDCA7591B0125BB00E9C47E /* TileField.swift */,
+				FFDCA75C1B0125C400E9C47E /* WaterDrop.swift */,
+			);
+			name = gameobject;
+			sourceTree = "<group>";
+		};
+		FFDCA75E1B0125CC00E9C47E /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA75F1B0125D600E9C47E /* LevelButton.swift */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+		FFDCA7611B0125DF00E9C47E /* states */ = {
+			isa = PBXGroup;
+			children = (
+				FFDCA7621B0125EA00E9C47E /* LevelState.swift */,
+				FFDCA7631B0125EA00E9C47E /* TitleMenuState.swift */,
+				FFDCA7641B0125EA00E9C47E /* HelpState.swift */,
+				FFDCA7651B0125EA00E9C47E /* LevelMenuState.swift */,
+			);
+			name = states;
+			sourceTree = "<group>";
+		};
+		FFDCA76A1B0126EA00E9C47E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF5720C61B109BCE000B4E6F /* Images.xcassets */,
+				FF5720C81B109BD4000B4E6F /* defaults.plist */,
+				FF5720FA1B109D53000B4E6F /* levels.txt */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDCA7141B01252E00E9C47E /* Tick Tick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDCA7381B01252E00E9C47E /* Build configuration list for PBXNativeTarget "Tick Tick" */;
+			buildPhases = (
+				FFDCA7111B01252E00E9C47E /* Sources */,
+				FFDCA7121B01252E00E9C47E /* Frameworks */,
+				FFDCA7131B01252E00E9C47E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tick Tick";
+			productName = TickTick1;
+			productReference = FFDCA7151B01252E00E9C47E /* Tick Tick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDCA70D1B01252E00E9C47E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjan Egges";
+				TargetAttributes = {
+					FFDCA7141B01252E00E9C47E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFDCA7101B01252E00E9C47E /* Build configuration list for PBXProject "TickTick1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDCA70C1B01252E00E9C47E;
+			productRefGroup = FFDCA7161B01252E00E9C47E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDCA7141B01252E00E9C47E /* Tick Tick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDCA7131B01252E00E9C47E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDCA7241B01252E00E9C47E /* Main.storyboard in Resources */,
+				FF5720C91B109BD4000B4E6F /* defaults.plist in Resources */,
+				FF5720C71B109BCE000B4E6F /* Images.xcassets in Resources */,
+				FF5720FB1B109D53000B4E6F /* levels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDCA7111B01252E00E9C47E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDCA71F1B01252E00E9C47E /* GameScene.swift in Sources */,
+				FFDCA7661B0125EA00E9C47E /* LevelState.swift in Sources */,
+				FFDCA74E1B01259500E9C47E /* Button.swift in Sources */,
+				FFDCA74C1B01259500E9C47E /* SKNode_Extension.swift in Sources */,
+				FFDCA74F1B01259500E9C47E /* Math.swift in Sources */,
+				FFDCA7521B01259500E9C47E /* InputHelper.swift in Sources */,
+				FFDCA7561B01259500E9C47E /* GameScreen.swift in Sources */,
+				FFDCA7531B01259500E9C47E /* FileReader.swift in Sources */,
+				FFDCA7551B01259500E9C47E /* GridLayout.swift in Sources */,
+				FFDCA7691B0125EA00E9C47E /* LevelMenuState.swift in Sources */,
+				FFDCA7211B01252E00E9C47E /* GameViewController.swift in Sources */,
+				FFDCA7541B01259500E9C47E /* DefaultsManager.swift in Sources */,
+				FFDCA7681B0125EA00E9C47E /* HelpState.swift in Sources */,
+				FFDCA74D1B01259500E9C47E /* SKSpriteNode_Extension.swift in Sources */,
+				FFDCA71B1B01252E00E9C47E /* AppDelegate.swift in Sources */,
+				FFDCA75B1B0125BB00E9C47E /* TileField.swift in Sources */,
+				FFDCA75A1B0125BB00E9C47E /* Tile.swift in Sources */,
+				FFDCA7511B01259500E9C47E /* Sound.swift in Sources */,
+				FFDCA75D1B0125C400E9C47E /* WaterDrop.swift in Sources */,
+				FFDCA7601B0125D600E9C47E /* LevelButton.swift in Sources */,
+				FFDCA7501B01259500E9C47E /* GameStateManager.swift in Sources */,
+				FFDCA7671B0125EA00E9C47E /* TitleMenuState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDCA7221B01252E00E9C47E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDCA7231B01252E00E9C47E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDCA7361B01252E00E9C47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDCA7371B01252E00E9C47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDCA7391B01252E00E9C47E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TickTick1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDCA73A1B01252E00E9C47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TickTick1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AE.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDCA7101B01252E00E9C47E /* Build configuration list for PBXProject "TickTick1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDCA7361B01252E00E9C47E /* Debug */,
+				FFDCA7371B01252E00E9C47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDCA7381B01252E00E9C47E /* Build configuration list for PBXNativeTarget "Tick Tick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDCA7391B01252E00E9C47E /* Debug */,
+				FFDCA73A1B01252E00E9C47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDCA70D1B01252E00E9C47E /* Project object */;
+}

@@ -1,0 +1,26 @@
+Xcode version
+=============
+7.2
+
+
+Legacy versions
+===============
+Xcode 7.2: https://www.dropbox.com/s/894156th6ctouv2/978-1-4842-0651-5-samples-Xcode7.2.zip?dl=0
+
+Xcode 7.1: https://www.dropbox.com/s/7oxg2zcbxa5bx3b/978-1-4842-0651-5-samples-Xcode7.1.zip?dl=0
+
+Xcode 7 (beta 5): https://www.dropbox.com/s/kieza9ae2vilrs7/978-1-4842-0651-5-samples-Xcode7b5.zip
+
+Update log
+===========
+5/4/2016: Update examples for Xcode 7.3. All usage of the double increment/decrement operator (++/—-) has been replaced by += and -=, since these operators will be gone in Swift 3. All for-loops now use ranges instead of the C-style syntax, also to comply with Swift 3. A few minor things were fixed with path references. 
+
+1/8/2016: Fixed a few remaining global path references in the Tut’s Tomb game examples.
+
+12/30/2015: Updated examples for Xcode 7.2. Fixed local path references in the PainterFinal example. Since the main bugs related to atlases have been solved in the new Xcode, I also updated the TickTick samples to remove the atlas workaround. As a result, the TickTick examples will now only work correctly on iOS 9.2 and newer. Made a change in the WaterDrop and Sound classes in TickTickFinal to avoid having to open too many files, which caused a crash.
+
+10/23/2015: Fixed path references to be local in all projects.
+
+09/11/2015: Updated examples for Xcode 7.1.
+
+08/27/2015: Fixed error in Chapter 21.
